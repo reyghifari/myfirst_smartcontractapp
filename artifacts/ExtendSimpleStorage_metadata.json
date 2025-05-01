@@ -125,6 +125,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "sayHello",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -151,7 +164,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"SimpleStorage.sol": "SimpleStorage"
+			"ExtendSimpleStorage.sol": "ExtendSimpleStorage"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -165,6 +178,14 @@
 		"remappings": []
 	},
 	"sources": {
+		"ExtendSimpleStorage.sol": {
+			"keccak256": "0x276ec9fb0ace367f854aac85be80db028f5ec60b83ca80e8972497237be8b4e0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://abdb02050c5e9d13d41b67d2ea532228cbce0eca3709af27ec8d9a92c9033b74",
+				"dweb:/ipfs/QmbH1gXLvp1ZcDjP6Qz2DFGxx3KiotdPtD7wd98a7WfaMq"
+			]
+		},
 		"SimpleStorage.sol": {
 			"keccak256": "0xbbd4733a192ad940e05fe5382ee31827f5216282254be1d8757c059a2f396701",
 			"license": "MIT",

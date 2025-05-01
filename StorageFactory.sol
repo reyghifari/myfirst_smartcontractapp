@@ -5,11 +5,21 @@ import "./SimpleStorage.sol";
 
 contract StorageFactory {
 
-    SimpleStorage public simpleStorage;
+    SimpleStorage[] public listOfSimpleStorage;
 
     function createSimpleStorage() public {
-        simpleStorage = new SimpleStorage();
+        SimpleStorage simpleStorage = new SimpleStorage();
+        listOfSimpleStorage.push(simpleStorage);
     }
 
+    function sfStore(uint _indexStorage, uint _newSimpleStorageNumber) public {
+        SimpleStorage simpleStorage = listOfSimpleStorage[_indexStorage];
+        simpleStorage.storeFavoriteNumber(_newSimpleStorageNumber);
+    }
+
+    function sgGet(uint _indexStorage)public view returns(uint){
+       return listOfSimpleStorage[_indexStorage].getFavoriteNumber();
+    }
+    
 
 }
