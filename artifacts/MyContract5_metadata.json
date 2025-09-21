@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "message",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "newMessage",
+						"type": "string"
+					}
+				],
+				"name": "setMessage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SimpleCon5.sol": "MyContract5"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SimpleCon5.sol": {
+			"keccak256": "0x684054c2b6d2d8f14b9ccba7d4a3435cd2ec46f6290444884883bb48fcc8200d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1a69bb845b7688c65774d4ea63ef95c4406c71f9f1d5438807d62b7542a5f9df",
+				"dweb:/ipfs/QmVngRMndmfRHbcG4hDTS8AsqcAsCqU45dpeJJTojenZTx"
+			]
+		}
+	},
+	"version": 1
+}

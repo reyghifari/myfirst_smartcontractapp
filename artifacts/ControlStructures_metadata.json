@@ -1,0 +1,95 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "timeProvided",
+						"type": "uint256"
+					}
+				],
+				"name": "AfterHours",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_time",
+						"type": "uint256"
+					}
+				],
+				"name": "doNotDisturb",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					}
+				],
+				"name": "fizzBuzz",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ControlSturct.sol": "ControlStructures"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ControlSturct.sol": {
+			"keccak256": "0x4e2b7eef2c902ad0be584c2f7705a4928da1921a9f8428e4aa93a4f02b03d059",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ebda4db1e0ad5aff468f17f0ddb4295af6b5e8ec63f274139edd3d22e63166e5",
+				"dweb:/ipfs/QmZXR1ZAVpQAJYJQjfpDBQ1YfB5JeCmXnCPrsRF7JnCBD3"
+			]
+		}
+	},
+	"version": 1
+}

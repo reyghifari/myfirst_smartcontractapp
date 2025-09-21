@@ -1,0 +1,181 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint16",
+						"name": "_shares",
+						"type": "uint16"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint32",
+						"name": "_salary",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_idNumber",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "totalShares",
+						"type": "uint256"
+					}
+				],
+				"name": "TooManyShares",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_slot",
+						"type": "uint256"
+					}
+				],
+				"name": "checkForPacking",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "r",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "debugResetShares",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint16",
+						"name": "_newShares",
+						"type": "uint16"
+					}
+				],
+				"name": "grantShares",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "idNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "viewSalary",
+				"outputs": [
+					{
+						"internalType": "uint32",
+						"name": "",
+						"type": "uint32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "viewShares",
+				"outputs": [
+					{
+						"internalType": "uint16",
+						"name": "",
+						"type": "uint16"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"checkForPacking(uint256)": {
+					"notice": "Do not modify this function.  It is used to enable the unit test for this pin to check whether or not you have configured your storage variables to make use of packing. If you wish to cheat, simply modify this function to always return `0` I'm not your boss ¯\\_(ツ)_/¯ Fair warning though, if you do cheat, it will be on the blockchain having been deployed by your wallet....FOREVER!"
+				},
+				"debugResetShares()": {
+					"notice": "Warning: Anyone can use this function at any time!"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"StorageExcercise.sol": "EmployeeStorage"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"StorageExcercise.sol": {
+			"keccak256": "0xe63756383493dc45c7b908ca29296c6d7e4d2ed80e3fd4f2e3e40960c04ed9f9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5d731d52b321f0d6c59b29df90e6e7fb8ec76799d02d7bf43ffd2362fd9f2888",
+				"dweb:/ipfs/QmWx4SC6ZaqyRD4VaEvXgC3e6QDZos7JUGdmgsV57spGAm"
+			]
+		}
+	},
+	"version": 1
+}

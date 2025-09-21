@@ -1,0 +1,240 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "BadCarIndex",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_make",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_model",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_color",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_numberOfDoors",
+						"type": "uint256"
+					}
+				],
+				"name": "addCar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "garage",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "make",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "model",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "color",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numberOfDoors",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getMyCars",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "make",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "model",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "color",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "numberOfDoors",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct GarageManager.Car[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_user",
+						"type": "address"
+					}
+				],
+				"name": "getUserCars",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "make",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "model",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "color",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "numberOfDoors",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct GarageManager.Car[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "resetMyGarage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_make",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_model",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_color",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_numberOfDoors",
+						"type": "uint256"
+					}
+				],
+				"name": "updateCar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"StructEx.sol": "GarageManager"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"StructEx.sol": {
+			"keccak256": "0x791754cbaa0bfd41d7d8ef3803cfd3efa813b958e9e433cbe143a5ff5d598bc5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://47ee017428a61928f215d2399daff2b0316aa524ba031878429d749b0bf11423",
+				"dweb:/ipfs/Qme9QL29HopAwHLT5NdW19xQ6nj1b7HJHM8MSSs5Jhcmtq"
+			]
+		}
+	},
+	"version": 1
+}
